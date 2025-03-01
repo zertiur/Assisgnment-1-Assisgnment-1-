@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechInsight - Contact Us</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>TechInsight</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="contact.html" class="active">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="contact-intro">
+            <h2>Get in Touch</h2>
+            <p>Have questions, suggestions, or feedback? We'd love to hear from you! Fill out the form below to subscribe to our newsletter or suggest topics for future articles.</p>
+        </section>
+
+        <section class="contact-form-container">
+            <form class="contact-form">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="reason">Reason for Contact</label>
+                    <select id="reason" name="reason">
+                        <option value="newsletter">Subscribe to Newsletter</option>
+                        <option value="topic">Suggest a Topic</option>
+                        <option value="feedback">Provide Feedback</option>
+                        <option value="other">Other</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                </div>
+                <div class="form-group checkbox-group">
+                    <input type="checkbox" id="subscribe" name="subscribe" checked>
+                    <label for="subscribe">Subscribe to our weekly newsletter</label>
+                </div>
+                <div class="form-group">
+                    <button type="submit" class="submit-btn">Send Message</button>
+                </div>
+            </form>
+        </section>
+
+        <section class="contact-info">
+            <h2>Additional Contact Information</h2>
+            <div class="contact-details">
+                <div class="contact-item">
+                    <h3>Email</h3>
+                    <p>info@techinsight.com</p>
+                </div>
+                <div class="contact-item">
+                    <h3>Social Media</h3>
+                    <p>Follow us on Twitter, Facebook, and LinkedIn for the latest updates.</p>
+                </div>
+                <div class="contact-item">
+                    <h3>Office Hours</h3>
+                    <p>Monday to Friday: 9:00 AM - 5:00 PM (EST)</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>About TechInsight</h3>
+                <p>Your source for the latest technology news, trends, and insights.</p>
+            </div>
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Connect With Us</h3>
+                <div class="social-links">
+                    <a href="#" class="social-link">Twitter</a>
+                    <a href="#" class="social-link">Facebook</a>
+                    <a href="#" class="social-link">LinkedIn</a>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>&copy; 2025 TechInsight. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
